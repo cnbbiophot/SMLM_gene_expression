@@ -1,0 +1,25 @@
+#13/05/2024, 11:38:29
+#Parámetros obligatorios
+#El separador es un espacio
+#Los parámeteros acaban en ":"
+#rootName: nombre raíz de todos los nombres de los archivos
+#pixelSize en nm (102 para binning 4 y x1.6, 81 para binning 2)
+#controlArea (en pixeles): Formato: x0,y0,width,height
+#Valores típicos: w=7,h=25 para binning 4x1.6; w=11,h=40 para binning 2;
+#frameFit: último frame para hacer el fitting. Si es -1 ajusta todos
+#frameQuant: último frame para hacer la cuantificación
+#Parámetros opcionales: savePlots y filePath, ROIFile, growthModel, cellWidth
+#growthModel es el modelo de crecimiento acumulativo puede ser exp_linear, linear (u otros). Por defecto es exp_linear
+#cellWidth es la longitud de la célula en um. Si no se especifica es el que midió Raquel: 0.967 um
+#colourScale son los límites de la escala de colores en las imágenes de recuento (falso color y superpuesta).
+#Si no se especifica colourScale pone los límites mínimo y máximo.
+
+rootName: 06_231102_04
+pixelSize: 102
+controlArea: 122,115,7,25
+frameFit: 50
+frameQuant: 60
+ROIFile: 06_231102_04_ROI
+growthModel: exp-linear
+cellWidth: 0.967
+colourScale: 20, 100
