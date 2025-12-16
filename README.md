@@ -1,35 +1,40 @@
-# Instrucciones para anaCellC
-#
-# jri - 20.12.23
-# jri - 7.5.24
+# anaCellC
 
-# Instrucciones para instalar misic
-# Crea el entorno para misic
-conda create -y --name misic git python=3.7
-# Instala misic
-conda activate misic
-pip install misic
-conda install -y -c conda-forge opencv
-conda install -y -c conda-forge matplotlib
-pip install -U roifile[all]
+As published in
+Luzon-Hidalgo, R. *et. al.* *Virus Propagation Linked to Exceedingly Rare Gene-Expression Errors: A Single-Molecule Microscopy Demonstration*
+ACS Chem. Bio. **20** (11), 2720-2732 (2025)
+[doi](https://doi.org/10.1021/acschembio.5c00638)
 
-# Usar Jupyter en el entorno nuevo:
-conda activate base
-(base) conda install -c conda-forge nb_conda_kernels
-(base) conda activate misic
-(misic) conda install ipykernel
-(misic) conda deactivate
-# Y luego ejecuto
-(base) jupyter-notebook
+jri - 20.12.23
+jri - 7.5.24
 
-#Si no funciona:
-https://github.com/jupyter/notebook/issues/5014
-pip install --upgrade jupyter_client
+## Instrucciones para instalar misic
+Crea el entorno para misic   
+`conda create -y --name misic git python=3.7`  
+Instala misic   
+`conda activate misic`  
+`pip install misic`  
+`conda install -y -c conda-forge opencv`  
+`conda install -y -c conda-forge matplotlib`  
+`pip install -U roifile[all]`  
+
+Usar Jupyter en el entorno nuevo:
+`conda activate base`  
+`(base) conda install -c conda-forge nb_conda_kernels`  
+`(base) conda activate misic`  
+`(misic) conda install ipykernel`  
+`(misic) conda deactivate`  
+Y luego ejecuto
+`(base) jupyter-notebook`  
+
+Si no funciona:
+[https://github.com/jupyter/notebook/issues/5014]  
+`pip install --upgrade jupyter_client`  
 
 
-# Si alguna de las librerías se ha quedado desfasada
-pip show matplotlib
-pip install --upgrade matplotlib 
+Si alguna de las librerías se ha quedado desfasada
+`pip show matplotlib` 
+`pip install --upgrade matplotlib` 
 
 
 
