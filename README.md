@@ -5,7 +5,7 @@ Luzon-Hidalgo, R. *et. al.* *Virus Propagation Linked to Exceedingly Rare Gene-E
 ACS Chem. Bio. **20** (11), 2720-2732 (2025)
 [doi](https://doi.org/10.1021/acschembio.5c00638)
 
-jri - 20.12.23
+jri - 20.12.23  
 jri - 7.5.24
 
 ## Instrucciones para instalar misic
