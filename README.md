@@ -1,7 +1,7 @@
 # anaCellC
 
 As published in  
-Luzon-Hidalgo, R. *et. al.* *Virus Propagation Linked to Exceedingly Rare Gene-Expression Errors: A Single-Molecule Microscopy Demonstration*
+Luzon-Hidalgo, R. *et. al.* *Virus Propagation Linked to Exceedingly Rare Gene-Expression Errors: A Single-Molecule Microscopy Demonstration.*
 ACS Chem. Bio. **20** (11), 2720-2732 (2025)
 [doi](https://doi.org/10.1021/acschembio.5c00638)
 
