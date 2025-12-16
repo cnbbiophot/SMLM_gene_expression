@@ -73,13 +73,12 @@ Desde Jupyter-notebook, entorno misic
 7. `batch.modifyparamdat(foldersFile, key='frameFit', value=2800) #Para Ocre y KO`  
 8. `batch.modifyparamdat(foldersFile, key='frameQuant', value=el que quieras)`  
 9  `batch.modifyparamdat(filePath, key='colourScale', value='min, max')`  
-9. Para borrar la palabra clave usas:
-10. `batch.modifyparamdat(filePath, key='colourScale', value='')`  
-11. `anaCellC.batch.analysis(foldersFile)  
-12. Para representar sólo las vcélulas válidas en el caso de las KO:  
-13. `batch.valid_in_every_folder (foldersFile, valid_file, vmin=0, vmax=20, save_data=True)`  
-14. Para representar el histograma: save_path es el path a la carpeta donde está folderlist. Si no se pone no graba  
-13. `representa.histo (foldersFile, sample, valid_file=valid_file, num_bins=12, lim_representa=lim_representa, save_path=save_path)`  
+9. Para borrar la palabra clave usas: `batch.modifyparamdat(filePath, key='colourScale', value='')`  
+11. `anaCellC.batch.analysis(foldersFile)`  
+12. Para representar sólo las vcélulas válidas en el caso de las KO:
+    `batch.valid_in_every_folder (foldersFile, valid_file, vmin=0, vmax=20, save_data=True)`  
+13. Para representar el histograma: save_path es el path a la carpeta donde está folderlist. Si no se pone no graba  
+    `representa.histo (foldersFile, sample, valid_file=valid_file, num_bins=12, lim_representa=lim_representa, save_path=save_path)`  
 14. 
 14. Más instrucciones anacell_batch_run.py  
 
